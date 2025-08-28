@@ -1,0 +1,66 @@
+# Node.js 패키지 폴더
+node_modules/
+
+# 환경 변수 파일 (보안 중요!)
+.env
+.env.local
+.env.production
+.env.staging
+
+# 로그 파일
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 업로드 파일 (사용자 업로드 내용)
+uploads/
+uploads/*.png
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.gif
+uploads/*.pdf
+uploads/*.doc
+uploads/*.docx
+
+# 임시 파일
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# IDE 및 에디터 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# 데이터베이스 파일
+*.sqlite
+*.db
+
+# 백업 파일
+*.bak
+*.backup
+
+# 공개 파일 (테스트용)
+public/index.html
+public/test-*.html
+
+# 보안 관련
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx.env
+*.env
+.env.local
+.env
+*.env
+.env.local
